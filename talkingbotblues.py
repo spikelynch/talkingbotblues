@@ -1,7 +1,9 @@
 #!/usr/bin/env python3.5
 
-import re, requests, html
-from botclient import Bot
+import re
+import requests
+import html
+from botclient.botclient import Bot
 
 WIKI_RANDOM_URL = 'https://en.wikipedia.org/wiki/Special:Random'
 WIKI_TITLE_RE = '<title>(.*) -'
